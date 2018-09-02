@@ -24,12 +24,16 @@ author:
   name: Mart&iacute;n Dutra
   twitter: martindsq
 
-# Build settings
+remote_theme: chesterhow/tale
+
 markdown: kramdown
 theme: tale
 permalink: /:year-:month-:day/:title
 paginate: 5
+
 plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
   - jekyll-feed
 
 # Exclude from processing.
